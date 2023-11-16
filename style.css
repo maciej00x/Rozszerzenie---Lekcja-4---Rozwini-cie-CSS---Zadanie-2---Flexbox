@@ -1,0 +1,31 @@
+nav {
+  height: 70px;
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b2b2b;
+}
+
+ul {
+  display: flexbox;
+}
+
+a {
+  color: white;
+}
+
+.page-index {
+  font-weight: bold;
+}
+
+.page-about {
+  font-weight: bold;
+}
+
+.page-offer {
+  font-weight: bold;
+}
+
+.page-contact {
+  font-weight: bold;
+}
