@@ -1,31 +1,22 @@
-nav {
+.menu {
   height: 70px;
-  display: flex;
-  align-items: center;
   vertical-align: auto;
   background-color: #2b2b2b;
 }
 
-ul {
+.menu-items {
+  height: 100%;
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-a {
+.link,
+.link:visited {
   color: white;
+  text-decoration: none;
 }
 
-.page-index {
-  font-weight: bold;
-}
-
-.page-about {
-  font-weight: bold;
-}
-
-.page-offer {
-  font-weight: bold;
-}
-
-.page-contact {
+.active {
   font-weight: bold;
 }
